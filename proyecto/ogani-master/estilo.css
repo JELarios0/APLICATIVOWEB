@@ -1,0 +1,206 @@
+*{
+    margin: 5px;
+    padding: 10px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+
+header{
+    width: 100%;
+    background: rgba(255, 255, 255, 0.111);
+    height: 100%;
+    text-align: center;
+    border-radius: 25px;
+    
+
+} 
+
+
+
+
+ 
+nav {
+    float: right;
+    float: center;
+}
+
+nav a{
+    padding: 10px 20px;
+    color: rgb(75, 82, 79);
+    text-align: none;
+    line-height: 80px;
+    font-weight: bold;
+    border-radius: 80px;
+
+    transition: all 1s;
+}
+
+nav a{
+    background: rgb(174, 190, 173);
+    color: rgb(246, 239, 239);
+}
+
+.helf{
+    width: 100%;
+    float: left;
+    text-align: center;
+    
+}
+
+.half img{
+    width: 60%;
+    height: 460px;
+    margin-top: 245px;
+    
+}
+
+.half h1{
+    margin-top: 80px;
+    line-height: 80px;
+    background-color: rgb(251, 251, 251);height: 100px;width: 50%;
+}
+
+
+footer{
+    width:100%;
+    height: 190%;
+    padding: 10px 0;
+    text-align: center;
+    background-color: bisque;
+}
+
+.signupFrm{
+    float: center;
+}
+    /* Get rid of all default margins/paddings. Set typeface */
+body {
+    box-sizing: border-box;
+    margin: none;
+    padding: 0px;
+    background-color: rgba(249, 250, 249, 0.178);
+    font-family: 'Times New Roman', Times, serif ;
+}
+
+/* Puts the form in the center both horizontally and vertically. Sets its height to 100% of the viewport's height */
+
+.signupFrm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 20px;
+}
+
+.form {
+    background-color: white;
+    width: 540px;
+    border-radius: 25px;
+    padding: 70px;
+    box-shadow: 0 10px 25px rgba(92, 99, 105, .2);
+    border-style: outset;
+    border-color: green;
+}
+  
+  .title {
+    font-size: 50px;
+    margin-bottom: 50px;
+       
+}
+
+.inputContainer {
+    position: relative;
+    height: 45px;
+    width: 90%;
+    margin-bottom: 17px;
+}
+
+/* Style the inputs */
+
+.input {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    border: 1px solid #080808;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 0 20px;
+    outline: none;
+    background: none;
+    z-index: 1;
+}
+  
+  /* Hide the placeholder texts (a) */
+  
+  ::placeholder {
+    color: transparent;
+}
+
+/* Styling text labels */
+
+.label {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    padding: 0 4px;
+    background-color: white;
+    color: #DADCE0;
+    font-size: 16px;
+    transition: 0.5s;
+    z-index: 0;
+}
+
+.submitBtn {
+    display: block;
+    margin-left: auto;
+    padding: 15px 30px;
+    border: none;
+    background-color:rgb(10, 115, 26);
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 30px;
+}
+  
+  .submitBtn:hover {
+    background-color: #2c2a2e;
+    transform: translateY(-2px);
+}
+
+.input:focus + .label {
+    top: -7px;
+    left: 3px;
+    z-index: 10;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(44, 39, 44);
+}
+
+.input:focus {
+    border: 2px solid rgb(39, 36, 39);
+}
+
+.input:not(:placeholder-shown)+ .label {
+    top: -7px;
+    left: 3px;
+    z-index: 10;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

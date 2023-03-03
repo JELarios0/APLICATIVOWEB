@@ -1,0 +1,22 @@
+.login {
+    min-height: 100vh;
+    background-color:#7ead39a8;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .bg-image {
+    background-image: url('https://images.pexels.com/photos/96715/pexels-photo-96715.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover;
+    background-position: center;
+  
+  }
+  
+  .login-heading {
+    font-weight: 300;
+  }
+  
+  .btn-login {
+    font-size: 0.9rem;
+    letter-spacing: 0.05rem;
+    padding: 0.75rem 1rem;
+  }
